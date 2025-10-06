@@ -19,14 +19,15 @@ Esta landing page foi desenvolvida para representar visualmente o projeto, apres
 
 ## 🧱 Estrutura do Projeto
 
+```bash
 educatech-landing/
 │
-├── index.html # Página principal
-├── style.css # Estilos e responsividade
+├── index.html          # Página principal
+├── style.css           # Estilos e responsividade
 └── assets/
-├── logo.png # Logotipo do projeto
-├── banner.jpg # (opcional) imagem de cabeçalho
-└── icons/ # (opcional) ícones adicionais
+    ├── logo.png        # Logotipo do projeto
+    ├── banner.jpg      # (opcional) imagem de cabeçalho
+    └── icons/          # (opcional) ícones adicionais
 
 ---
 

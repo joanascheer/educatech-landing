@@ -28,6 +28,7 @@ educatech-landing/
     ├── logo.png        # Logotipo do projeto
     ├── banner.jpg      # (opcional) imagem de cabeçalho
     └── icons/          # (opcional) ícones adicionais
+```
 
 ---
 

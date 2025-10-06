@@ -6,9 +6,19 @@
   <title>EducaTech - Plataforma de Aprendizado em Tecnologia</title>
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Google Fonts & Material Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SX7H3JCV09"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SX7H3JCV09');
+</script>
+
 </head>
 <body>
   <header class="hero">
@@ -16,7 +26,9 @@
     <div class="hero-content">
       <img src="assets/logo.png" alt="Logo EducaTech" class="logo" alt="EducaTech"/>
       <p>Aprenda tecnologia de forma prática, acessível e interativa.</p>
-      <a href="#cursos" class="cta-btn">Quero aprender tecnologia</a>
+      <button class="cta-btn" onclick="registrarInteresse()">Quero aprender tecnologia!</button>
+        <div id="mensagem" class="mensagem">🎉 Interesse registrado! Obrigado por apoiar a EducaTech 🚀</div>
+
     </div>
   </header>
 
@@ -67,11 +79,15 @@
 
   <section id="contato" class="section contact">
      <h2>Pronto para dar o próximo passo?</h2>
-    <a href="#cursos" class="cta-btn">Quero aprender tecnologia</a>
+    <button class="cta-btn" onclick="registrarInteresse()">Quero aprender tecnologia!</button>
+        <div id="mensagem" class="mensagem">🎉 Interesse registrado! Obrigado por apoiar a EducaTech 🚀</div>
+
   </section>
 
   <footer class="footer">
     <p>© 2025 EducaTech — Plataforma de Aprendizado Interativo em Tecnologia</p>
   </footer>
+
+<script src="script.js" defer></script>
 </body>
 </html>
